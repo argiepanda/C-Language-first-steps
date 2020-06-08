@@ -7,19 +7,19 @@
 
 int main(){
 
-    int numero;
+    int number;
 
-    printf("Ingrese el numero:\n");
-    scanf("%d", &numero);
+    printf("Give me some number:\n");
+    scanf("%d", &number);
 
-    if (numero > 0){
-        printf("El numero es mayor que cero y por ende positivo\n");
+    if (number > 0){
+        printf("The number looks bigger than Zero so the number looks positive\n");
 
-    }else if (numero = 0){
-        printf("El numero es igual a Cero\n");
+    }else if (number = 0){
+        printf("The number looks similar than Zero\n");
 
-    }else if (numero < 0){
-        printf("El numero es negativo\n");
+    }else if (number < 0){
+        printf("The number looks negative!\n");
     }
 
     return 0;
