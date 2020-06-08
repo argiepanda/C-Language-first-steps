@@ -1,0 +1,27 @@
+// We must define if the result of the sum action looks odd or pair
+// Similar methodology that we used to play in other examples.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    int numberA, numberB, sum;
+
+    printf("Give me the first value:\n");
+    scanf("%d", &numberA);
+    printf("Give me the second value:\n");
+    scanf("%d", &numberB);
+
+    sum = numberA + numberB;
+
+    printf("The result of the addition is:\n\%d", sum);
+
+    if (sum % 2 == 0){
+        printf("The addition result looks pair\n");
+    }else{
+        printf("The addition result looks odd\n");
+    }
+
+    return 0;
+}
