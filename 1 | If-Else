@@ -7,16 +7,16 @@
 
 int main(){
 
-    int numero;
+    int number;
 
-    printf("Ingrese el numero por favor:\n");
-    scanf("%d", &numero);
+    printf("Give me a number please:\n");
+    scanf("%d", &number);
 
-    if (numero % 2 == 0){
-        printf("El numero ingresado es par\n");
+    if (number % 2 == 0){
+        printf("Pair number!\n");
 
     }else{
-        printf("El numero ingresado es impar\n");
+        printf("Odd number!\n");
     }
 
     return 0;
