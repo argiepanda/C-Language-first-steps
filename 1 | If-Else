@@ -1,0 +1,23 @@
+// In this case you have a singular problem or issue. You have to talk with the external/internal user.
+// The fundamental issue or resolution is the definition of the value.
+// You have to find the way (using If-Else resource) to define if the value is odd or pair.
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    int numero;
+
+    printf("Ingrese el numero por favor:\n");
+    scanf("%d", &numero);
+
+    if (numero % 2 == 0){
+        printf("El numero ingresado es par\n");
+
+    }else{
+        printf("El numero ingresado es impar\n");
+    }
+
+    return 0;
+}
