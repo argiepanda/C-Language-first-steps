@@ -1,0 +1,27 @@
+// Bigger or smaller number. 2 different or identical numbers added via keyboard.
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+
+    int numberA, numberB;
+
+    printf("Give me the first value:\n");
+    scanf("%d", &numberA);
+    printf("Give me the second value:\n");
+    scanf("%d", &numberB);
+
+    if (numberA > numberB){
+        printf("A looks bigger than B\n");
+
+    }else if (numberA < numberB){
+        printf("B looks bigger than A\n");
+
+    }else if (numberA = numberB){
+        printf("A looks similar than B\n");
+    }
+
+    return 0;
+}
